@@ -29,6 +29,37 @@ namespace OOP1
             isimler2.Add("Emin");
             Console.WriteLine(isimler2[4]);
 
+            Mylist<string> games = new Mylist<string> ();
+            games.Add("csgo");
+            games.Add("pubg");
+
         }
+        //Kendi Generic'ini oluşturma
+        class Mylist<T>
+        {
+            T[] _array;
+
+            //Mylist çalıştığında 1. olarak 0 elemanlı bir liste oluşturacak
+            public Mylist()
+            {
+                _array = new T[0];
+            }
+
+            // Önceden içinde bulunan elemanlar gitmesin diye 2. olarak geçici bir generic oluşturuyoruz
+            // Geçici oluşturduğumuz generic'i item sayısı 1 artacak şekilde orijinal generic'e bağlıyoruz
+            public void Add(T item)
+            {
+                T[] temparray = _array;
+                _array = new T[_array.Length+1];
+
+                for (int i = 0; i < _array.Length; i++)
+                {
+                    _array[i] = temparray[i];
+                }
+
+                _array[_array.Length - 1] = item;
+            }
+        }
+
     }
 }
