@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValueandReferenceTypes", "V
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Koleksiyonlar", "OOP1\Koleksiyonlar.csproj", "{25BD4FA6-FFFC-4FD6-9DAA-C47DAFD4C268}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDictonary", "MyDictonary\MyDictonary.csproj", "{9B6F4430-AEC8-475D-8C46-77483C9CCDE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyDictonary", "MyDictonary\MyDictonary.csproj", "{9B6F4430-AEC8-475D-8C46-77483C9CCDE4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP(Interface)", "OOP\OOP(Interface).csproj", "{10BAC33F-EFA0-4F23-AAEE-626218A29F7B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{9B6F4430-AEC8-475D-8C46-77483C9CCDE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B6F4430-AEC8-475D-8C46-77483C9CCDE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B6F4430-AEC8-475D-8C46-77483C9CCDE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10BAC33F-EFA0-4F23-AAEE-626218A29F7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10BAC33F-EFA0-4F23-AAEE-626218A29F7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10BAC33F-EFA0-4F23-AAEE-626218A29F7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10BAC33F-EFA0-4F23-AAEE-626218A29F7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
